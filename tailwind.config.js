@@ -13,6 +13,7 @@ module.exports = {
         // Define a custom primary color
         mainTeal: '#417978',  // Example hex color
         bgGray: '#DDDDDD',  // Example hex color
+        background: '#EEEEEE'
       },
     },
   },
