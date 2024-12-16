@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-background flex flex-col min-h-screen">
         <Navigation />
-        <div className='flex-grow'>{children}</div>
+        <div className="flex-grow">{children}</div>
         <Footer />
       </body>
     </html>
