@@ -2,6 +2,7 @@
 import './global.css';
 import { Roboto, Outfit } from 'next/font/google';
 import Navigation from '@/components/Navigation.jsx';
+import Footer from '@/components/Footer.jsx';
 
 export const metadata = {
   title: 'Create Next App',
@@ -21,9 +22,11 @@ const outfit = Outfit({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Navigation />
-      <body className="bg-background">{children}</body>
-      {/* footer */}
+      <body className="bg-background flex flex-col min-h-screen">
+        <Navigation />
+        <div className='flex-grow'>{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }
