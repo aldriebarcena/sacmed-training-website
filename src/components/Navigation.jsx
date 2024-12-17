@@ -60,13 +60,7 @@ const Navigation = () => {
   return (
     <div className="flex w-full items-center justify-between px-36 py-8">
       {/* Logo Section */}
-      <Link
-        href="/"
-        className="w-[20%] pb-4"
-        onClick={() => {
-          setSelected('');
-        }}
-      >
+      <Link href="/" className="w-[20%] pb-4">
         <Image className="" src={Logo} alt="Sacmed Logo" />
       </Link>
 
