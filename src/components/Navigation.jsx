@@ -58,7 +58,7 @@ const Navigation = () => {
   }, []);
 
   return (
-    <div className="flex w-full items-center justify-between px-36 py-8">
+    <div className="flex w-full items-center justify-between px-36 pt-8 pb-24">
       {/* Logo Section */}
       <Link href="/" className="w-[20%] pb-4">
         <Image className="" src={Logo} alt="Sacmed Logo" />

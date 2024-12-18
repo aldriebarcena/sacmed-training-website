@@ -124,8 +124,8 @@ const Schedule = ({ isCurrent }) => {
   };
 
   return isCurrent === true ? (
-    <div className="w-96 flex justify-center items-center flex-col">
-      <div className="font-outfit font-semibold text-2xl">Current Schedule</div>
+    <div className="w-full flex justify-center items-center flex-col pr-8">
+      <div className="font-outfit font-semibold text-4xl">Current Schedule</div>
       <div className="pt-6 flex pb-4">
         {Object.keys(currScheduleDetails).map(
           (
@@ -133,7 +133,7 @@ const Schedule = ({ isCurrent }) => {
           ) => (
             <button
               key={key} // sets the key to the current key
-              className={`font-outfit font-medium text-base px-8 ${
+              className={`font-outfit font-medium text-xl px-8 ${
                 selectedCurrSchedule === key // if the key is selected, keep it green, otherwise make it black
                   ? 'text-mainTeal border-b-2 border-mainTeal'
                   : 'text-black'
@@ -146,11 +146,11 @@ const Schedule = ({ isCurrent }) => {
         )}
       </div>
 
-      <div className="w-full rounded-md border-[1px] border-black bg-bgGray shadow-[5px_5px_0px_0px_#417978] p-4">
-        <div className="font-outfit font-medium text-md pb-4 flex justify-center items-center">
+      <div className="w-full rounded-md border-[1px] border-black bg-bgGray shadow-[5px_5px_0px_0px_#417978] p-8">
+        <div className="font-outfit font-medium text-2xl pb-4 flex justify-center items-center">
           {currScheduleDetails[selectedCurrSchedule].numWeeks}
         </div>
-        <div className="font-outfit text-md flex justify-between">
+        <div className="font-outfit text-2xl flex justify-between">
           {currScheduleDetails[selectedCurrSchedule].times.map(
             (time, index) => (
               <div className="flex flex-col" key={index}>
@@ -167,15 +167,15 @@ const Schedule = ({ isCurrent }) => {
       </div>
     </div>
   ) : (
-    <div className="w-96 flex justify-center items-center flex-col">
-      <div className="font-outfit font-semibold text-2xl">
+    <div className="w-full flex justify-center items-center flex-col pl-8">
+      <div className="font-outfit font-semibold text-4xl">
         Upcoming Schedules
       </div>
       <div className="pt-6 flex pb-4">
         {Object.keys(UpScheduleDetails).map((key) => (
           <button
             key={key}
-            className={`font-outfit font-medium text-base px-8 ${
+            className={`font-outfit font-medium text-xl px-8 ${
               selectedUpSchedule === key
                 ? 'text-mainTeal border-b-2 border-mainTeal'
                 : 'text-black'
@@ -187,16 +187,16 @@ const Schedule = ({ isCurrent }) => {
         ))}
       </div>
 
-      <div className="w-full rounded-md border-[1px] border-black bg-bgGray shadow-[5px_5px_0px_0px_#417978] p-4">
+      <div className="w-full rounded-md border-[1px] border-black bg-bgGray shadow-[5px_5px_0px_0px_#417978] p-8">
         <div className="pb-4 flex justify-center items-center">
-          <div className="font-outfit font-medium text-md px-4">
+          <div className="font-outfit font-medium text-2xl px-4">
             {UpScheduleDetails[selectedUpSchedule].numWeeks}
           </div>
-          <div className="font-outfit text-base font-medium mt-[1px] px-4">
+          <div className="font-outfit text-2xl font-medium mt-[1px] px-4">
             {UpScheduleDetails[selectedUpSchedule].dates}
           </div>
         </div>
-        <div className="font-outfit text-md flex justify-between">
+        <div className="font-outfit text-2xl flex justify-between">
           {UpScheduleDetails[selectedUpSchedule].times.map((time, index) => (
             <div className="flex flex-col" key={index}>
               <div className="font-roboto pb-2">
