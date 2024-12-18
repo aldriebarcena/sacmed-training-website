@@ -47,7 +47,7 @@ export default function Page() {
         </div>
 
         {/* section 3 */}
-        <div className="w-full flex pb-36 justify-center">
+        <div className="w-full flex pb-40 justify-center">
           <div className="w-1/2">
             <Schedule isCurrent={true} className="" />
           </div>
@@ -77,9 +77,9 @@ export default function Page() {
           <p className="font-roboto tracking-[0.2rem] font-bold text-xl ">
             Our program is accredited, and our graduates consistently score high
             on certification exams. Join us and start a career where you can
-            make a difference in people&apos;s lives everyday. Contact us today to
-            learn more about our nurse assistant program and how we can help you
-            achieve your career goals.
+            make a difference in people&apos;s lives everyday. Contact us today
+            to learn more about our nurse assistant program and how we can help
+            you achieve your career goals.
           </p>
         </div>
 
