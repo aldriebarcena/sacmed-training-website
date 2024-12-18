@@ -58,7 +58,7 @@ export default function Page() {
 
         {/* section 4 */}
         <div className="w-full flex flex-col pb-40 justify-center">
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl  pb-8">
+          <p className="font-roboto tracking-[0.2rem] text-xl  pb-8">
             Looking to start a rewarding career in healthcare? Our nurse
             assistant program is the perfect way to kick-start your journey.
             Learn how to provide valuable care and support to patients in
@@ -67,14 +67,14 @@ export default function Page() {
             succeed, including taking vital signs, providing basic care, and
             assisting with activities of daily living.
           </p>
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl  pb-8">
+          <p className="font-roboto tracking-[0.2rem]  text-xl  pb-8">
             At our school, we provide hands-on training that will prepare you
             for a fulfilling career as a nurse assistant. We offer flexible
             scheduling options so you can balance your education with other
             commitments, and our friendly staff are always available to answer
             any questions you may have.
           </p>
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl ">
+          <p className="font-roboto tracking-[0.2rem]  text-xl ">
             Our program is accredited, and our graduates consistently score high
             on certification exams. Join us and start a career where you can
             make a difference in people&apos;s lives everyday. Contact us today

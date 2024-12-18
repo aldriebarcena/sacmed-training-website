@@ -13,7 +13,7 @@ export default function Page() {
           <h1 className="font-outfit text-5xl font-extrabold pb-8 w-full text-center">
             About Our Program
           </h1>
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl  pb-8">
+          <p className="font-roboto tracking-[0.2rem]  text-xl  pb-8">
             Our program is designed to give students a practical knowledge of a
             Nursing Assistant role. Students will learn to address the needs of
             the whole Patient or Resident while promoting independence and self
@@ -23,7 +23,7 @@ export default function Page() {
             and afterwards become an efficient and safe Certified Nursing
             Assistant.
           </p>
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl  pb-8">
+          <p className="font-roboto tracking-[0.2rem]  text-xl  pb-8">
             Our Nursing Assistant program has two components: the theoretical
             portion and clinical portion. The 1st portion of our program is
             comprised of 60 hours of theory and is held at the beginning of our
@@ -31,7 +31,7 @@ export default function Page() {
             clinical experience for a total of 160 hours as required by the
             California Department of Public Health.
           </p>
-          <p className="font-roboto tracking-[0.2rem] font-bold text-xl  pb-8">
+          <p className="font-roboto tracking-[0.2rem]  text-xl  pb-8">
             The course content is delivered through lectures and instructor
             demonstrations exposing students to actual nursing procedures and
             techniques used in the clinic setting. Knowledge evaluation is
